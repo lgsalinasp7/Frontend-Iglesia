@@ -1,0 +1,158 @@
+
+    <div class="d-table">
+        <div class="d-table-cell">
+            
+                <div class="title mx-2">
+                    <div class="d-flex mb-10 align-items-center">
+                        <h2 class="mb-0 me-30">Comienza</h2>
+                        <img src="assets/img/logo-icon.png" alt="logo-icon">
+                    </div>
+                    <p>Ya tienes una cuenta? <a routerLink="/authentication/login" class="main-color fw-medium">Ingresa ahora!</a></p>
+                </div>
+                <mat-card class="mb-25 tagus-card">
+                    <mat-card-header>
+                        <h5 class="mb-0">Textual Inputs</h5>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                    <div class="tagus-form-group">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Fecha de nacimiento</label>
+                                        <mat-form-field appearance="fill" class="date-input">
+                                            <mat-label>MM/DD/YYYY</mat-label>
+                                            <input matInput [matDatepicker]="picker2">
+                                            <mat-datepicker-toggle matIconSuffix [for]="picker2"></mat-datepicker-toggle>
+                                            <mat-datepicker #picker2></mat-datepicker>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                    <div class="tagus-form-group ">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Tipo de identificación</label>
+                                        <mat-form-field appearance="fill">
+                                            <i class="ri-list-check"></i>
+                                            <mat-label>Tipo de identificación</mat-label>
+                                            <mat-select>
+                                                <mat-option value="1">CC</mat-option>
+                                                <mat-option value="2">TI</mat-option>
+                                                <mat-option value="3">Pasaporte</mat-option>
+                                            </mat-select>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                    <div class="tagus-form-group">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Identificación</label>
+                                        <mat-form-field appearance="fill">
+                                            <i class="ri-user-3-line"></i>
+                                            <mat-label>Identificación</mat-label>
+                                            <input matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                    <div class="tagus-form-group">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Email Address <span>*</span></label>
+                                        <mat-form-field appearance="fill">
+                                            <i class="ri-mail-line"></i>
+                                            <mat-label>Enter email address</mat-label>
+                                            <input matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                    <div class="tagus-form-group">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Phone</label>
+                                        <mat-form-field appearance="fill">
+                                            <i class="ri-phone-line"></i>
+                                            <mat-label>Enter phone number</mat-label>
+                                            <input matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="tagus-form-group">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Address</label>
+                                        <mat-form-field appearance="fill">
+                                            <i class="ri-map-pin-line"></i>
+                                            <mat-label>Enter location</mat-label>
+                                            <input matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="tagus-form-group">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Country</label>
+                                        <mat-form-field appearance="fill">
+                                            <i class="ri-map-2-line"></i>
+                                            <mat-label>Enter country</mat-label>
+                                            <input matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="tagus-form-group without-icon">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Town/City</label>
+                                        <mat-form-field appearance="fill">
+                                            <mat-label>Enter town/city</mat-label>
+                                            <mat-select>
+                                                <mat-option value="1">London</mat-option>
+                                                <mat-option value="2">Tokyo</mat-option>
+                                                <mat-option value="3">New York</mat-option>
+                                                <mat-option value="4">Beijing</mat-option>
+                                                <mat-option value="5">Paris</mat-option>
+                                                <mat-option value="6">Osaka</mat-option>
+                                                <mat-option value="6">Chicago</mat-option>
+                                                <mat-option value="6">İstanbul</mat-option>
+                                            </mat-select>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="tagus-form-group without-icon">
+                                        <label class="d-block mb-12 fw-semibold gray-color">State</label>
+                                        <mat-form-field appearance="fill">
+                                            <mat-label>Enter state</mat-label>
+                                            <mat-select>
+                                                <mat-option value="1">London</mat-option>
+                                                <mat-option value="2">Tokyo</mat-option>
+                                                <mat-option value="3">New York</mat-option>
+                                                <mat-option value="4">Beijing</mat-option>
+                                                <mat-option value="5">Paris</mat-option>
+                                                <mat-option value="6">Osaka</mat-option>
+                                                <mat-option value="6">Chicago</mat-option>
+                                                <mat-option value="6">İstanbul</mat-option>
+                                            </mat-select>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="tagus-form-group without-icon">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Zip Code</label>
+                                        <mat-form-field appearance="fill">
+                                            <mat-label>Enter zip code</mat-label>
+                                            <input matInput>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="tagus-form-group">
+                                        <label class="d-block mb-12 fw-semibold gray-color">Description</label>
+                                        <mat-form-field appearance="fill">
+                                            <i class="ri-information-line"></i>
+                                            <mat-label>Some description text...</mat-label>
+                                            <textarea matInput rows="6"></textarea>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </mat-card-content>
+                </mat-card>
+                
+              
+            
+        </div>
+    </div>

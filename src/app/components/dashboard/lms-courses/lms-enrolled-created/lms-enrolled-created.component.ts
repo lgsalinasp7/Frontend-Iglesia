@@ -1,0 +1,9 @@
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-lms-enrolled-created',
+    templateUrl: './lms-enrolled-created.component.html',
+    styleUrls: ['./lms-enrolled-created.component.scss'],
+    standalone: false
+})
+export class LmsEnrolledCreatedComponent {}
