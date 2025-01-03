@@ -17,36 +17,36 @@ export class AppComponent {
 
     constructor(
         public router: Router,
-        private toggleService: ToggleService,
-        public themeService: CustomizerSettingsService
+      //  private toggleService: ToggleService,
+       // public themeService: CustomizerSettingsService
     ) {
-        this.toggleService.isToggled$.subscribe(isToggled => {
-            this.isToggled = isToggled;
-        });
+        // this.toggleService.isToggled$.subscribe(isToggled => {
+        //     this.isToggled = isToggled;
+        // });
     }
 
-    toggleRightSidebarTheme() {
-        this.themeService.toggleRightSidebarTheme();
-    }
+    // toggleRightSidebarTheme() {
+    //     this.themeService.toggleRightSidebarTheme();
+    // }
 
-    toggleHideSidebarTheme() {
-        this.themeService.toggleHideSidebarTheme();
-    }
+    // toggleHideSidebarTheme() {
+    //     this.themeService.toggleHideSidebarTheme();
+    // }
 
-    toggleCardBorderTheme() {
-        this.themeService.toggleCardBorderTheme();
-    }
+    // toggleCardBorderTheme() {
+    //     this.themeService.toggleCardBorderTheme();
+    // }
 
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
+    // toggleTheme() {
+    //     this.themeService.toggleTheme();
+    // }
 
-    toggleCardBorderRadiusTheme() {
-        this.themeService.toggleCardBorderRadiusTheme();
-    }
+    // toggleCardBorderRadiusTheme() {
+    //     this.themeService.toggleCardBorderRadiusTheme();
+    // }
 
-    toggleRTLEnabledTheme() {
-        this.themeService.toggleRTLEnabledTheme();
-    }
+    // toggleRTLEnabledTheme() {
+    //     this.themeService.toggleRTLEnabledTheme();
+    // }
 
 }

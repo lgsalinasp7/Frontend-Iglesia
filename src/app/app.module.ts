@@ -748,6 +748,7 @@ import { SharedModule } from './shared.modulo';
 
     imports: [
         BrowserModule,
+        BrowserAnimationsModule,
         SharedModule,
         FormsModule,
         ReactiveFormsModule,
