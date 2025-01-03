@@ -1,24 +1,19 @@
-<div
-
->
+<div>
     <div class="d-table">
         <div class="d-table-cell">
-            <div class="tagus-form ms-auto me-auto">
+            <div class="tagus-form ms-auto me-auto ">
                 <div class="title">
-                    <div class="d-flex mb-10 align-items-center">
-                        <h2 class="mb-0 me-30">KalebSoft</h2>
-                        <img class="logo-ppal" src="assets/img/logoM.svg" alt="logo-icon">
+                    <div class="mb-10 d-flex flex-column">
+                        <div>
+                            <img class="logo-ppal" src="assets/img/logoM.svg" alt="logo-icon">
+                        </div>
+                        <div>
+                            <h2 class="mb-0 text-center">KalebSoft</h2>
+                        </div>
                     </div>
-                    <p>Todavia sin cuenta? <a routerLink="/authentication/register" class="main-color fw-medium">Regístrese aquí!</a></p>
+                    <!-- <p class="">Todavia sin cuenta? <a routerLink="/authentication/register" class="main-color fw-medium">Regístrese aquí!</a></p> -->
                 </div>
                 <form>
-                    <div class="login-with-socials d-md-flex align-items-center justify-content-space-between">
-                        <button mat-flat-button class="gray fw-semibold d-block me-5"><img src="assets/img/icon/google.png" alt="google"> Login con Google</button>
-                        <button mat-flat-button class="tagus fw-semibold d-block ms-5"><img src="assets/img/icon/facebook.png" alt="facebook"> Login con Facebook</button>
-                    </div>
-                    <div class="or text-center position-relative">
-                        <span class="fw-semibold fs-16">o</span>
-                    </div>
                     <div class="bg-white border-radius pt-20 ps-20 pe-20">
                         <div class="tagus-form-group without-icon">
                             <label class="d-block mb-12 fw-semibold gray-color">Correo electronico <span>*</span></label>
@@ -42,7 +37,7 @@
                         <mat-checkbox class="gray-color">Recordarme</mat-checkbox>
                         <a routerLink="/authentication/forgot-password" class="d-inline-block main-color fw-medium">Olvidaste Contraseña?</a>
                     </div>
-                    <button mat-flat-button class="tagus d-block fw-semibold">Ingresar</button>
+                    <button mat-flat-button class="tagus d-block fw-semibold" (click)="ingresar()">Ingresar</button>
                 </form>
             </div>
         </div>

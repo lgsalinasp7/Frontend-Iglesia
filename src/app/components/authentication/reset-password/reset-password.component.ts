@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CustomizerSettingsService } from '../../customizer-settings/customizer-settings.service';
 
 @Component({
-    selector: 'app-reset-password',
+    selector: 'ap-reset-password',
     templateUrl: './reset-password.component.html',
     styleUrls: ['./reset-password.component.scss'],
     standalone: false

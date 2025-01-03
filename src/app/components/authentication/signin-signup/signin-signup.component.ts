@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CustomizerSettingsService } from '../../customizer-settings/customizer-settings.service';
 
 @Component({
-    selector: 'app-signin-signup',
+    selector: 'ap-signin-signup',
     templateUrl: './signin-signup.component.html',
     styleUrls: ['./signin-signup.component.scss'],
     standalone: false

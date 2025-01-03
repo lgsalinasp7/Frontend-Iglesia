@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CustomizerSettingsService } from '../../customizer-settings/customizer-settings.service';
 
 @Component({
-    selector: 'app-confirm-mail',
+    selector: 'ap-confirm-mail',
     templateUrl: './confirm-mail.component.html',
     styleUrls: ['./confirm-mail.component.scss'],
     standalone: false

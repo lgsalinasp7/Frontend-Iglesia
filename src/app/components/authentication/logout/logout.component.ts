@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CustomizerSettingsService } from '../../customizer-settings/customizer-settings.service';
 
 @Component({
-    selector: 'app-logout',
+    selector: 'ap-logout',
     templateUrl: './logout.component.html',
     styleUrls: ['./logout.component.scss'],
     standalone: false

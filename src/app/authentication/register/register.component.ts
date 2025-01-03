@@ -12,23 +12,23 @@ export class RegisterComponent {
     hide = true;
 
     constructor(
-        public themeService: CustomizerSettingsService
+       // public themeService: CustomizerSettingsService
     ) {}
 
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
+    // toggleTheme() {
+    //     this.themeService.toggleTheme();
+    // }
 
-    toggleCardBorderTheme() {
-        this.themeService.toggleCardBorderTheme();
-    }
+    // toggleCardBorderTheme() {
+    //     this.themeService.toggleCardBorderTheme();
+    // }
 
-    toggleCardBorderRadiusTheme() {
-        this.themeService.toggleCardBorderRadiusTheme();
-    }
+    // toggleCardBorderRadiusTheme() {
+    //     this.themeService.toggleCardBorderRadiusTheme();
+    // }
 
-    toggleRTLEnabledTheme() {
-        this.themeService.toggleRTLEnabledTheme();
-    }
+    // toggleRTLEnabledTheme() {
+    //     this.themeService.toggleRTLEnabledTheme();
+    // }
 
 }

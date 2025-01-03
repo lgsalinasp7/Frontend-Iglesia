@@ -1,7 +1,15 @@
 
 img{
     max-width: 20%;
-}  
+}
+
+.logo-ppal {
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    height: auto;
+}
+
 .tagus-form {
     max-width: 510px;
 
@@ -90,7 +98,7 @@ img{
         }
         .or {
             color: #828690;
-    
+
             span {
                 background: #0d1015;
             }
@@ -146,6 +154,10 @@ img{
 
 @media only screen and (max-width : 767px) {
 
+    .logo-ppal {
+        max-width: 20%;
+    }
+
     .tagus-form {
         max-width: 100%;
         padding: {
@@ -154,14 +166,14 @@ img{
         };
         .title {
             margin-bottom: 20px;
-    
+
             p {
                 font-size: 15px;
             }
         }
         .login-with-socials {
             margin-bottom: 20px;
-    
+
             .mdc-button {
                 margin-bottom: 15px;
             }
@@ -176,15 +188,19 @@ img{
         }
     }
 
-  
+
 }
 
 @media only screen and (min-width : 768px) and (max-width : 991px) {
 
+    .logo-ppal {
+        max-width: 20%;
+    }
+
     .tagus-form {
         .title {
             margin-bottom: 15px;
-    
+
             p {
                 font-size: 15px;
             }

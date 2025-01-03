@@ -16,7 +16,6 @@ import { NgxDropzoneModule } from 'ngx-dropzone';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AppsComponent } from './components/apps/apps.component';
 import { EcommerceComponent } from './components/dashboard/ecommerce/ecommerce.component';
 import { AnalyticsComponent } from './components/dashboard/analytics/analytics.component';
@@ -383,7 +382,6 @@ import { SharedModule } from './shared.modulo';
 
 @NgModule({ declarations: [
         AppComponent,
-        DashboardComponent,
         AppsComponent,
         EcommerceComponent,
         AnalyticsComponent,

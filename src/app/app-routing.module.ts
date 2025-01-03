@@ -129,6 +129,8 @@ import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.
 const routes: Routes = [
     { path: '', redirectTo: '/authentication/login', pathMatch: 'full' },
     { path: 'authentication', loadChildren: () => import('./authentication/authentication.module').then(m => m.AuthenticationModule) },
+    { path: 'dashboard', loadChildren: () => import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule) },
+
 
    // {path: '', component: EcommerceComponent},
     // {path: 'analytics', component: AnalyticsComponent},
@@ -254,14 +256,7 @@ const routes: Routes = [
     // {path: 'coming-soon', component: ComingSoonComponent},
     // {path: 'blank-page', component: BlankPageComponent},
     // {path: 'error-500', component: InternalErrorComponent},
-    // {path: 'authentication/forgot-password', component: ForgotPasswordComponent},
-    // {path: 'authentication/reset-password', component: ResetPasswordComponent},
-    // {path: 'authentication/login', component: LoginComponent},
-    // {path: 'authentication/register', component: RegisterComponent},
-    // {path: 'authentication/signin-signup', component: SigninSignupComponent},
-    // {path: 'authentication/logout', component: LogoutComponent},
-    // {path: 'authentication/confirm-mail', component: ConfirmMailComponent},
-    // {path: 'authentication/lock-screen', component: LockScreenComponent},
+
     // Here add new pages component
 
     {path: '**', component: NotFoundComponent} // This line will remain down from the whole pages component list

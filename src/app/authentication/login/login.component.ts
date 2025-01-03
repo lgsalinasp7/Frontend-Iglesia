@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { CustomizerSettingsService } from 'src/app/components/customizer-settings/customizer-settings.service';
 
 @Component({
@@ -12,7 +13,8 @@ export class LoginComponent {
     hide = true;
 
     constructor(
-       public themeService: CustomizerSettingsService
+        public router : Router,
+      // public themeService: CustomizerSettingsService
     ) {}
 
     // toggleTheme() {
@@ -31,4 +33,7 @@ export class LoginComponent {
     //     this.themeService.toggleRTLEnabledTheme();
     // }
 
+    ingresar(){
+        this.router.navigate(['/dashboard']);
+    }
 }
